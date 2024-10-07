@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "REVISUALISATION"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+         text: Visualisation1
+         text: Visualisation2
+
+     
+        
+    right:-
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
